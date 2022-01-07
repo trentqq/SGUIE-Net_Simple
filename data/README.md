@@ -40,3 +40,9 @@
             ├── ..
 
 ```
+
+## Custom Datasets(without segmentation map)
+For other datasets without ground truth segmentation map, users can choose to:
+1. Manually mark the segmentation map
+2. Using [SUIM-Net](https://github.com/xahidbuffon/SUIM) to generate predicted semantic segmentation, by loading [pre-trained models](https://drive.google.com/drive/folders/1aoluekvB_CzoaqGhLutwtJptIOBasl7i).
+3. Organize the obtained segmentation map as described [above](#Data-Preparation).
