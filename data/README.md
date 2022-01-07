@@ -3,7 +3,7 @@
 
 ### 2. The structure of data folder is as follows:
 ```
-dataset_name
+├── dataset_name
     ├── train
         ├── raw
             ├── im1.jpg
