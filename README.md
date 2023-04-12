@@ -18,8 +18,11 @@ You can download the trained model from [here](https://drive.google.com/file/d/1
 @article{qi2022sguie,
   title={SGUIE-Net: Semantic Attention Guided Underwater Image Enhancement with Multi-Scale Perception},
   author={Qi, Qi and Li, Kunqian and Zheng, Haiyong and Gao, Xiang and Hou, Guojia and Sun, Kun},
-  journal={arXiv preprint arXiv:2201.02832},
-  year={2022}
+  journal={IEEE Transactions on Image Processing},
+  volume={31},
+  pages={6816--6830},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
