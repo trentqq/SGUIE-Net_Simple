@@ -392,7 +392,7 @@ class SGUIENet(nn.Module):
         self.ff_conv1 = conv(dim, dim, kernel_size)
         self.ff_conv2 = conv(dim, dim, kernel_size)
         self.ff_conv3 = DoubleConv(dim, dim)
-        self.sm = nn.Sigmoid()
+        self.sm = nn.Softmax()
         self.conv2 = conv(dim, out_channels, kernel_size)
 
     def forward(self, raw, regions, region_masks, region_idxs):
